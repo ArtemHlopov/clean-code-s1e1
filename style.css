@@ -145,19 +145,19 @@ ul {
   width: 226px;
 }
 
-.btn__delete img {
+.ico {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn__delete img:hover {
+.ico:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-.todo_done-block .task-name {
+#todo_done-block .task-name {
   text-decoration: line-through;
   color: #888;
 }
