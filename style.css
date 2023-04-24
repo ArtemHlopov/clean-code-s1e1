@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.main__article img {
+.article__img {
   width: 100%;
 }
 
@@ -49,11 +49,14 @@ ul {
   padding: 0px;
 }
 
-.task, .todo__title {
+.task,
+.todo__title {
   list-style: none;
 }
 
-.add-block__input,.task-name__input,.btn{
+.add-block__input,
+.task-name__input,
+.btn{
   outline: none;
 }
 
@@ -154,7 +157,7 @@ ul {
 
 /* Completed */
 
-.todo_done-block label {
+.todo_done-block .task-name {
   text-decoration: line-through;
   color: #888;
 }
