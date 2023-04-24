@@ -4,46 +4,58 @@
   color: #333;
   font-family: lato, sans-serif;
 }
+
 .main__article {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .main__article img {
   width: 100%;
 }
+
 .article__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .main__article { text-align: center;
+
+  .main__article {text-align: center;
   }
+
 }
+
 .todo {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .add-block__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .add-block__wrapper {
   display: flex;
 }
+
 ul {
   margin:0;
   padding: 0px;
 }
+
 .task, .todo__title {
   list-style:none;
 }
+
 .add-block__input,.task-name__input,.btn{
   outline:none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -53,10 +65,13 @@ ul {
   font-family: lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .todo__title,
 .add-block__label {
   color: #333;
@@ -67,6 +82,7 @@ ul {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-name__input {
   margin: 0;
   font-size: 18px;
@@ -79,29 +95,33 @@ ul {
   font-family: lato, sans-serif;
   color: #888;
 }
+
 .task-name__input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .add-block__label {
   display: block;
   margin: 0 0 20px;
 }
+
 .add-block__input {
   width: 318px;
 }
 
 /* Task list */
+
 .task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .task > * {
   vertical-align: middle;
 }
@@ -109,31 +129,37 @@ ul {
 .checkbox {
   margin: 0 10px;
 }
+
 .task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-name__input {
   width: 226px
 }
+
 .btn__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn__delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .todo_done-block label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .task-name__input {
   display:none
 }
